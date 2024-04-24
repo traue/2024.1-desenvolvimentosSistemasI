@@ -1,0 +1,42 @@
+Problema:
+
+Desenvolver um sistema de software para gerenciar uma clínica odontológica, abrangendo desde o cadastro de pacientes e agendamento de consultas até o registro de procedimentos realizados e controle financeiro.
+
+- Entidades:
+    ‣ Paciente: Nome, CPF, Endereço, Telefone, Plano de Saúde
+    ‣ Dentista: Nome, CRO, Telefone, Especialidade
+    ‣ Consulta: Paciente, Dentista, Data, Hora, Procedimentos realizados, plano de tratamento
+    ‣ Procedimento: Descrição, Valor, Código TUSS
+    ‣ Pagamento: Consulta, Forma de Pagamento, Valor pago, data de pagamento
+
+- Relacionamentos
+    ‣ Um paciente pode ter uma ou mais consultas
+    ‣ Uma consulta está associada a um único paciente e um único dentista
+    ‣ Uma consulta pode ter diversos procedimentos realizados
+    ‣ Um pagamento está associado a uma única consulta
+
+
+- Diagrama de Classes (DCL)
+
+- Diagrama de Casos de Uso (DCU)
+    ⦿ Temos que pensar nos atores, ou seja, quem exerce casos de uso no sistema
+     ‣ Paciente
+     ‣ Dentista
+     ‣ Atendente
+
+  ‣ Marcar consulta (paciente / atendente)
+  ‣ Realizar consulta (dentista)
+  ‣ Pagar consulta (paciente / atendente)
+  ‣ Cobrar consulta (atendente)
+  ‣ Realizar procedimento odontológico (dentista)
+  ‣ ...
+
+
+Para praticar (não vale nota):
+ ‣ Descrever os requisitos deste sistema
+ ‣ Modelar as classes desse sistema (UML)
+ ‣ Modelar os casos de uso deste sistema
+ 
+
+
+ **** **** **** **** **** **** **** **** **** **** **** **** **** **** **** 
